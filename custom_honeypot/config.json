@@ -1,0 +1,10 @@
+{
+    "port": 2222,
+    "log_file": "logs/honeypot.log",
+    "banner": "Welcome to My Custom Honeypot!\n",
+    "commands": {
+        "whoami": "root",
+        "uname -a": "Linux honeypot 5.15.0-72-generic #80-Ubuntu SMP x86_64 GNU/Linux",
+        "pwd": "/root"
+    }
+}
